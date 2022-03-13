@@ -1,5 +1,5 @@
 while True:
-    cpf = input('digite um cpf: ')
+    cpf = input('Digite um cpf: ')
     novo_cpf = cpf[:-2]
     regressivo = 10
     total = 0
@@ -25,6 +25,6 @@ while True:
     sequencia = novo_cpf == str(novo_cpf[0]) * len(cpf)
 
     if novo_cpf == cpf and not sequencia:
-        print('cpf valido')
+        print('Cpf valido')
     else:
-        print('cpf invalido')
+        print('Cpf invalido')
