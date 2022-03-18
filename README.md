@@ -1,2 +1,2 @@
 # CPF generator and validator
-a simple code made in python
+A simple code made in python
